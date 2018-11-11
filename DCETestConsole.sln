@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCETestConsole", "DCETestConsole\DCETestConsole.csproj", "{4AACB711-FB77-4307-B945-86997902F51E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AACB711-FB77-4307-B945-86997902F51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AACB711-FB77-4307-B945-86997902F51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AACB711-FB77-4307-B945-86997902F51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AACB711-FB77-4307-B945-86997902F51E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AAE1FB7-F636-4BDB-8470-983301D6AF4E}
+	EndGlobalSection
+EndGlobal
