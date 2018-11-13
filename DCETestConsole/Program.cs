@@ -27,10 +27,13 @@ namespace DCETestConsole
             WebSocketManager socketManager = new WebSocketManager(url, new BuissnesProcessor());
 
             socketManager.Start();
-            socketManager.Send("{'event':'addChannel','channel':'ok_sub_spotcny_btc_ticker'}");
-            socketManager.Stop();
+            socketManager.Send("{'event':'addChannel','channel':'ok_sub_spot_btc_usd_ticker'}");
+
+            // processing data
 
             Console.ReadKey();
+
+            socketManager.Stop();
         }
     }
 
